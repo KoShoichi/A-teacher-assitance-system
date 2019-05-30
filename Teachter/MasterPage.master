@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Admin_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <LINK href="../Style/css.css"  type=text/css rel=stylesheet>
+    <LINK href="../Style/Navigator.css" type=text/css rel=STYLESHEET>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+     <TABLE id=MainHtmlTable borderColor=red cellSpacing=0 cellPadding=0 width=960 
+align=center border=0><!-- 第一行： 输出头部标志图片 -->
+  <TBODY>
+  <TR>
+    <TD style="height: 129px" >
+      <TABLE id=Table2 cellSpacing=0 cellPadding=0 width=960 border=0>
+        <TBODY>
+        <TR>
+          <TD width=960 height=110>
+              &nbsp;<asp:Image ID="Image1" runat="server" Height="110px" 
+                  ImageUrl="../Images/banner.gif" Width="100%" />
+            </TD>
+        </TR></TBODY></TABLE></TD></TR> <TR>
+    <TD class=121v align=center background=../Images/buttom.gif height=21>
+  
+    </TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <TABLE id=Table6 borderColor=green cellSpacing=0 cellPadding=0 width=960 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD width=6 background=../Images/blank_right.gif rowSpan=2 style="height: 447px"><IMG 
+            height=3 src="../Images/blank_right.gif" width=6></TD>
+          <TD vAlign=top background=../Images/blank_right2.gif style="width: 152px; height: 447px;">
+            <TABLE id=Table7 borderColor=red cellSpacing=0 cellPadding=0 
+            width=152 align=left border=0>
+              <TBODY>
+              <TR>
+                <TD height=48><IMG height=48 src="../Images/right_top.jpg" 
+                  width=153></TD></TR>
+              <TR>
+                <TD align=left>
+                      <asp:TreeView id="TreeView1" Font-Size="9pt" runat="server" Width="100%">
+                <Nodes>
+                   <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" Text="网站首页" Value="网站首页"  NavigateUrl="~/Teachter/Default.aspx" Expanded="False">
+                    </asp:TreeNode>
+                     <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" Text="网站公告" Value="网站公告"  Expanded="false">
+                        <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" NavigateUrl="AddNews.aspx"
+                           Text="发布公告" Value="发布公告"></asp:TreeNode>
+                                 <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" NavigateUrl="NewsManger.aspx"
+                           Text="管理公告" Value="管理公告"></asp:TreeNode>
+                    </asp:TreeNode>
+                         <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" Text="作业管理" Value="作业管理" Expanded="True">
+                                      <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" NavigateUrl="AddZuoYe.aspx"
+                           Text="发布作业" Value="发布作业"></asp:TreeNode>
+                        <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" NavigateUrl="ZuoyeList.aspx"
+                           Text="作业管理" Value="作业管理"></asp:TreeNode>
+                        <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" NavigateUrl="StZuoYeList.aspx"
+                           Text="作业评分" Value="作业评分"></asp:TreeNode>
+                           <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" NavigateUrl="ChenJI.aspx"
+                           Text="成绩管理" Value="成绩管理"></asp:TreeNode>
+                    </asp:TreeNode>
+                          
+                     <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" Text="师生交流" Value="师生交流" Expanded="True">
+                                       <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" NavigateUrl="~/Teachter/AddTopic.aspx"
+                           Text="发布问题" Value="发布问题"></asp:TreeNode>
+                                       <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" 
+                                           NavigateUrl="~/Teachter/LyList.aspx" Text="问题列表" Value="问题列表">
+                                       </asp:TreeNode>
+                    </asp:TreeNode>
+                 
+                         <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" Text="学生信息管理" Value="学生信息管理" NavigateUrl="StManger.aspx" Expanded="True">
+           
+                     
+                    </asp:TreeNode>
+                    
+                        
+                            <asp:TreeNode ImageUrl="~/Images/ico_Xp09.gif" Text="退出系统" Value="退出系统"  NavigateUrl="~/Login.aspx" Expanded="False">
+                    </asp:TreeNode>
+                </Nodes>
+            </asp:TreeView>
+                      
+                      
+                      </TD></TR>
+          
+              </TBODY></TABLE></TD>
+          <TD background=../Images/blanl_middle.gif rowSpan=2 style="height: 447px; width: 6px;"></TD>
+          <TD vAlign=top align=left rowSpan=2 style="height: 447px">
+            <TABLE id=Table8 borderColor=green cellSpacing=0 cellPadding=0 
+            width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD style="HEIGHT: 7px" width=16 height=7><IMG height=7 
+                  src="../Images/middle_b.gif" width=16></TD></TR>
+              <TR>
+                <TD vAlign=top align=middle style="height: 229px">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                  </TD></TR></TBODY></TABLE></TD>
+          <TD width=6 background=../Images/blank_left.gif rowSpan=2 style="height: 447px"></TD></TR>
+       </TBODY></TABLE></TD></TR><!-- 第五行： 输出底部分辅助信息行 （菜单区）-->
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 class="style1">
+        <TBODY>
+        <TR>
+          <TD width=3 height=3></TD>
+          <TD width=954 background=../Images/blank_bottom.gif height=3></TD>
+          <TD width=3 height=3></TD></TR></TBODY></TABLE></TD></TR><!-- 第六行： 输出底部分辅助信息行 -->
+  <TR>
+    <TD class=121v align=center background=../Images/buttom.gif height=21>
+  
+    </TD></TR><!-- 第七行： 输出底部分割行 -->
+  <TR>
+    <TD height=2></TD></TR><!-- 第八行： 输出底部版权声明 -->
+  <TR>
+    <TD class=121v align=center width="99%" bgColor=#e3e3e3 
+      height=22>苏州大学计算机科学与技术学院软件测试课程教学辅助平台<br />
+</TD></TR></TBODY></TABLE>
+    </div>
+    </form>
+</body>
+</html>

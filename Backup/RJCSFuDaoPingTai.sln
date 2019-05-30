@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "E:\...\RJCSFuDaoPingTai\", ".", "{66ADE1C2-A27B-4E3F-9148-4B594A0A76BB}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/RJCSFuDaoPingTai"
+		Debug.AspNetCompiler.PhysicalPath = "..\RJCSFuDaoPingTai\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\RJCSFuDaoPingTai\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/RJCSFuDaoPingTai"
+		Release.AspNetCompiler.PhysicalPath = "..\RJCSFuDaoPingTai\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\RJCSFuDaoPingTai\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "9133"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66ADE1C2-A27B-4E3F-9148-4B594A0A76BB}.Debug|.NET.ActiveCfg = Debug|.NET
+		{66ADE1C2-A27B-4E3F-9148-4B594A0A76BB}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

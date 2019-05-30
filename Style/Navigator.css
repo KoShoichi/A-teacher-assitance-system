@@ -1,0 +1,18 @@
+TD.Default {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(Images/Default.gif); MARGIN-BOTTOM: 2px; BACKGROUND-REPEAT: repeat-x
+}
+TD.Current {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(Images/Current.gif); MARGIN-BOTTOM: 2px; BACKGROUND-REPEAT: repeat-x
+}
+TD.MouseOver {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(Images/MouseOver.gif); MARGIN-BOTTOM: 2px; BACKGROUND-REPEAT: repeat-x
+}
+SPAN.Default {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(Images/Default.gif); MARGIN-BOTTOM: 2px; BACKGROUND-REPEAT: repeat-x
+}
+SPAN.Current {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(Images/Current.gif); MARGIN-BOTTOM: 2px; BACKGROUND-REPEAT: repeat-x
+}
+SPAN.MouseOver {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(Images/MouseOver.gif); MARGIN-BOTTOM: 2px; BACKGROUND-REPEAT: repeat-x
+}

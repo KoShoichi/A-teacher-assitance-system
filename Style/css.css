@@ -1,0 +1,181 @@
+.dynamicMenuStyleZIndex {
+	Z-INDEX: 10000
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 130%
+}
+LI {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 130%
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 130%
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 130%
+}
+.12v {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+.121v {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+A.a02:link {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.a02:visited {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.a02:active {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.a02:hover {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: midnightblue; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: midnightblue; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: midnightblue; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+.3a:link {
+	FONT-SIZE: 12px; COLOR: #003366; TEXT-DECORATION: none
+}
+.3a:visited {
+	FONT-SIZE: 12px; COLOR: #003366; TEXT-DECORATION: none
+}
+.3a:active {
+	FONT-SIZE: 12px; COLOR: #003366; TEXT-DECORATION: none
+}
+.3a:hover {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.a04:link {
+	FONT-SIZE: 12px; COLOR: black; TEXT-DECORATION: none
+}
+A.a04:visited {
+	FONT-SIZE: 12px; COLOR: black; TEXT-DECORATION: none
+}
+A.a04:active {
+	FONT-SIZE: 12px; COLOR: black; TEXT-DECORATION: none
+}
+A.a04:hover {
+	FONT-SIZE: 12px; COLOR: #003366; TEXT-DECORATION: none
+}
+A.a03:link {
+	FONT-SIZE: 12px; COLOR: dimgray; TEXT-DECORATION: none
+}
+A.a03:visited {
+	FONT-SIZE: 12px; COLOR: dimgray; TEXT-DECORATION: none
+}
+A.a03:active {
+	FONT-SIZE: 12px; COLOR: dimgray; TEXT-DECORATION: none
+}
+A.a03:hover {
+	FONT-SIZE: 12px; COLOR: slategray; TEXT-DECORATION: none
+}
+A.white:link {
+	FONT-SIZE: 12px; COLOR: #5e371a
+}
+A.white:visited {
+	FONT-SIZE: 12px; COLOR: #5e371a
+}
+A.white:active {
+	FONT-SIZE: 12px; COLOR: #ff6633
+}
+A.white:hover {
+	FONT-SIZE: 12px; COLOR: #ff6633
+}
+TD.content {
+	BORDER-RIGHT: lightsteelblue 0px solid; PADDING-RIGHT: 3px; BORDER-TOP: lightsteelblue 0px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: lightsteelblue 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: lightsteelblue 1px solid; BACKGROUND-COLOR: whitesmoke; TEXT-ALIGN: center
+}
+TD.contentEndCell {
+	BORDER-RIGHT: lightsteelblue 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: lightsteelblue 0px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: lightsteelblue 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: lightsteelblue 1px solid; BACKGROUND-COLOR: whitesmoke; TEXT-ALIGN: center
+}
+TD.text {
+	BORDER-RIGHT: lightsteelblue 0px solid; PADDING-RIGHT: 3px; BORDER-TOP: lightsteelblue 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: lightsteelblue 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: lightsteelblue 1px solid; BACKGROUND-COLOR: azure; TEXT-ALIGN: center
+}
+TD.textEndCell {
+	BORDER-RIGHT: lightsteelblue 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: lightsteelblue 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: lightsteelblue 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: lightsteelblue 1px solid; BACKGROUND-COLOR: azure; TEXT-ALIGN: center
+}
+TABLE.commontable {
+	BORDER-RIGHT: lightsteelblue 1px solid; BORDER-TOP: lightsteelblue 1px solid; BORDER-LEFT: lightsteelblue 1px solid; BORDER-BOTTOM: lightsteelblue 1px solid
+}
+TD.helptext {
+	BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+TD.helptitle {
+	COLOR: purple; TEXT-ALIGN: center
+}
+TD.instruct {
+	FONT-WEIGHT: bold; COLOR: #3399ff; FONT-FAMILY: ????
+}
+P {
+	MARGIN-TOP: 6px; MARGIN-BOTTOM: 3px; LINE-HEIGHT: 140%; TEXT-ALIGN: justify
+}
+.ctl00_MainMenu_0 {
+	DISPLAY: none; LEFT: 0px; VISIBILITY: hidden; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: white
+}
+.ctl00_MainMenu_1 {
+	FONT-SIZE: 0.8em; COLOR: black; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.ctl00_MainMenu_2 {
+	FONT-SIZE: 0.8em; COLOR: black; FONT-FAMILY: Verdana; BACKGROUND-COLOR: transparent
+}
+.ctl00_MainMenu_3 {
+	
+}
+.ctl00_MainMenu_4 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+.ctl00_MainMenu_5 {
+	BACKGROUND-COLOR: transparent
+}
+.ctl00_MainMenu_6 {
+	
+}
+.ctl00_MainMenu_7 {
+	BORDER-RIGHT: white 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: white 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: white 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: white 1px solid; BACKGROUND-COLOR: transparent
+}
+.ctl00_MainMenu_8 {
+	BACKGROUND-COLOR: aliceblue
+}
+.ctl00_MainMenu_9 {
+	
+}
+.ctl00_MainMenu_10 {
+	BORDER-RIGHT: lightsteelblue 1px solid; BORDER-TOP: lightsteelblue 1px solid; BORDER-LEFT: lightsteelblue 1px solid; BORDER-BOTTOM: lightsteelblue 1px solid; BACKGROUND-COLOR: lemonchiffon
+}
+.ctl00_MainMenu_11 {
+	
+}
+.ctl00_MainMenu_12 {
+	BORDER-RIGHT: lightsteelblue 1px solid; BORDER-TOP: lightsteelblue 1px solid; BORDER-LEFT: lightsteelblue 1px solid; BORDER-BOTTOM: lightsteelblue 1px solid; BACKGROUND-COLOR: lemonchiffon
+}
+.ctl00_MainMenu_13 {
+	COLOR: white
+}
+.ctl00_MainMenu_14 {
+	BORDER-RIGHT: palegoldenrod 1px solid; BORDER-TOP: palegoldenrod 1px solid; BORDER-LEFT: palegoldenrod 1px solid; COLOR: white; BORDER-BOTTOM: palegoldenrod 1px solid; BACKGROUND-COLOR: lemonchiffon
+}
+.ctl00_MainMenu_15 {
+	COLOR: white
+}
+.ctl00_MainMenu_16 {
+	BORDER-RIGHT: lightsteelblue 1px solid; BORDER-TOP: lightsteelblue 1px solid; BORDER-LEFT: lightsteelblue 1px solid; COLOR: white; BORDER-BOTTOM: lightsteelblue 1px solid; BACKGROUND-COLOR: lemonchiffon
+}
+/*ajax loading */
+.ajax_loading{ /* width:500px; height:500px; 
+               background-color:#f00; top:0px; left:0px;*/ background-position:center  center; background-image:url(../images/loading.gif); background-repeat:no-repeat;
+               
+               border: 0px; z-index: 10; 
+               position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; background-color: #fff;
+               	filter:alpha(opacity=50);		/*±³¾°Í¸Ã÷ ie*/ 
+	            opacity: 0.5;					/*±³¾°Í¸Ã÷ ff Ö§³ÖCSS3µÄä¯ÀÀÆ÷*/
+
+               }
